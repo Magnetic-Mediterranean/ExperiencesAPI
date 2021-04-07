@@ -5,7 +5,6 @@ module.exports = {
     node: true,
   },
   extends: [
-    'plugin:react/recommended',
     'airbnb',
   ],
   globals: {
@@ -22,9 +21,7 @@ module.exports = {
     'react',
   ],
   rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'import/extensions': 0,
-    'react/prop-types': 'off',
     'react/destructuring-assignment': [0, 'always'],
   },
 };
